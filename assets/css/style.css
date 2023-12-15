@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2d2b2b;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 2rem, auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+h2, p {
+  font-size: 1rem;
+  margin: 0, 5rem 0;
+}
+
+.graphic {
+  width: 65%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  border: 2px solid rgba(79, 215, 33, 0.644);
+}
+
+input, select {
+  width: 65%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 2px solid #fefbfb;
+  border-radius: 5px;
+  background: #fffefeec;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  width: 40%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 2px solid rgba(135, 255, 99, 0.644);
+  border-radius: 5px;
+  background: #7c0fd0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cambio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: rgba(135, 255, 99, 0.644);
+}
+
+.cambio h3 {
+  margin: 0 1rem;
+}
